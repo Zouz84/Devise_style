@@ -23,17 +23,18 @@
 
 <div class="right">
 
-<h2>Log in</h2>
+<div class="connec">
+<p class="Id">Entrez vos identifiants</p>
 
 <%= form_for(resource, as: resource_name, url: session_path(resource_name)) do |f| %>
 
   
-  <div class="field">
+  <div class="field1">
     <%= f.label :email %><br />
     <%= f.email_field :email, autofocus: true, autocomplete: "email" %>
   </div>
 
-  <div class="field">
+  <div class="field2">
     <%= f.label :password %><br />
     <%= f.password_field :password, autocomplete: "off" %>
   </div>
@@ -54,3 +55,5 @@
 
 </div>
 </div>
+</div>
+
