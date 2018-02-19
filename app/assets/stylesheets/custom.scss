@@ -135,13 +135,45 @@ box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
 
 .sign {
 	background-color: #D3CECD;
-	margin: 15% 0% 0 0;
-	padding: 10% 30%;
+	margin: 8% 0% 0 0;
+	padding: 20% 0 15% 30%;
+	text-decoration:none;
 }
 
 .creer {
 	color: #D3CECD;
 	font-family: 'Montserrat', sans-serif;
-	margin: 0 25% 0 30%;
+	margin: 0 25% 5% 30%;
 
+}
+
+.actions1
+{
+padding: 10px 105px 11px 100px;
+font-size: 18px !important;
+margin: 5% 10% 10% 18%;
+background-color: #3385ff;
+font-weight: bold;
+text-shadow: 1px 1px #57D6C7;
+color: #ffffff;
+border-radius: 1px;
+-moz-border-radius: 5px;
+-webkit-border-radius: 5px;
+border: 1px solid #57D6C7;
+cursor: pointer;
+box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
+-moz-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
+-webkit-box-shadow: 0 0px 0 rgba(255, 255, 255, 0.5) inset;
+}
+
+.ntm {
+	color: black;
+	text-decoration:none;
+}
+
+.mdp1 {
+	text-decoration:none;
+	font-style: italic;
+	margin: auto;
+	margin: 5%
 }

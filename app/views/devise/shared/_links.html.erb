@@ -1,11 +1,13 @@
+<div class="mdp">
 <%- if controller_name != 'sessions' %>
-  <%= link_to "Log in", new_session_path(resource_name) %><br />
+  <%= link_to "Page d'accueil", new_session_path(resource_name), class: "mdp1" %><br />
 <% end -%>
+</div>
 
 
 <div class="mdp">
 <%- if devise_mapping.recoverable? && controller_name != 'passwords' && controller_name != 'registrations' %>
-  <%= link_to "mot de passe oublié?", new_password_path(resource_name) %><br />
+  <%= link_to "mot de passe oublié?", new_password_path(resource_name), class: "mdp1" %><br />
 <% end -%>
 </div>
 
@@ -25,6 +27,6 @@
 
 <div class= "sign">
 <%- if devise_mapping.registerable? && controller_name != 'registrations' %>
-  <%= link_to "Créer un compte", new_registration_path(resource_name) %><br />
+  <%= link_to "Créer un compte", new_registration_path(resource_name), class: "ntm" %><br />
 <% end -%>
 </div>
